@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="advanced">Advanced</string>
+    <string name="app_lock">AppLock</string>
+    <string name="app_lock_is_closed">Applock has been closed</string>
+    <string name="app_lock_is_on">Applock has been enabled</string>
+    <string name="app_lock_protect_desc">%d apps has been protected</string>
+    <string name="app_name">Easy Clean Lite</string>
+    <string name="audio">audio</string>
+    <string name="best_cooling_effect">%ss to reach the best cooling effect</string>
+    <string name="boost_tag_acc_kill_service_description">"Tap on the top right hand toggle to enable Easy Clean Lite Enable to:
+
+·Extend battery life
+
+You may receive privacy warnings, this is a standard procedure on all Android OS when enabling Accessibility Services. (Easy Clean Lite will NOT collect any personal data)"</string>
+    <string name="btn_clean">Clean (%s)</string>
+    <string name="btn_not_select">Selected (0KB)</string>
+    <string name="cancel">@string/common_cancel</string>
+    <string name="cancel_pwd">CANCEL</string>
+    <string name="cancel_turn_on">CANCEL</string>
+    <string name="centigrade">℃</string>
+    <string name="check">CHECK</string>
+    <string name="check_app_junk">Analyzing %s usage…</string>
+    <string name="check_clean_desc">Click to enter sub-page,then select the files you want to clean.</string>
+    <string name="check_clean_desc_n">"Click to enter sub-page,
+then select the files you want to clean."</string>
+    <string name="choose_a_type">Choose a type</string>
+    <string name="clean">CLEAN</string>
+    <string name="clean_all">CLEAN ALL</string>
+    <string name="clean_big_files">Clean big files</string>
+    <string name="clean_big_files_desc">Clean big files to save lots of space</string>
+    <string name="clean_now">CLEAN NOW</string>
+    <string name="clean_running_apps">Cleaning</string>
+    <string name="clean_sdk_clean">Clean</string>
+    <string name="clean_sdk_file_brower_dialog_select_type">Select file type</string>
+    <string name="clean_sdk_file_brower_notopen_tips">"Can't open the file"</string>
+    <string name="clean_trash">Cleaned %s</string>
+    <string name="clean_usage_permission_desc">To detect abnormal RAM usage, please grant the necessary permission.</string>
+    <string name="clean_whatsapp">Clean WhatsApp</string>
+    <string name="clear_sdk_bigfile_other">Other big files</string>
+    <string name="clear_sdk_cache_title_suffix">"%s's cache"</string>
+    <string name="clear_sdk_date_sort_in_month">Within one month</string>
+    <string name="clear_sdk_date_sort_in_week">Within one week</string>
+    <string name="clear_sdk_date_sort_out_month">Beyond one month</string>
+    <string name="clear_sdk_founded">Found</string>
+    <string name="clear_sdk_trash_adplugin">Ad junk</string>
+    <string name="clear_sdk_trash_apk">Apk</string>
+    <string name="clear_sdk_trash_app_data">App data</string>
+    <string name="clear_sdk_trash_bigfile">Big files</string>
+    <string name="clear_sdk_trash_memory">Memory</string>
+    <string name="clear_sdk_trash_system">Cache</string>
+    <string name="clear_sdk_trash_title_suffix">"%s's junk"</string>
+    <string name="clear_sdk_trash_uninstalled">Residual</string>
+    <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
+    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_like_button_liked">Liked</string>
+    <string name="com_facebook_like_button_not_liked">Like</string>
+    <string name="com_facebook_loading">Loading…</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Continue with Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_send_button_text">Send</string>
+    <string name="com_facebook_share_button_text">Share</string>
+    <string name="com_facebook_smart_device_instructions">To connect your account, open the Facebook app on your mobile device and check for notifications.</string>
+    <string name="com_facebook_smart_device_instructions_or">- OR -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Not you?</string>
+    <string name="com_facebook_smart_login_confirmation_continue_as">Continue as %1$s</string>
+    <string name="com_facebook_smart_login_confirmation_title">Confirm Login</string>
+    <string name="com_facebook_tooltip_default">"You're in control - choose what info you want to share with apps."</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_close">Close</string>
+    <string name="common_confirm">Confirm</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_notice">Popup notice</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_prompt">Notice</string>
+    <string name="common_return">Return</string>
+    <string name="common_selected">Selected</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="common_unselected">Unselected</string>
+    <string name="continue_use">Continue to use</string>
+    <string name="cooling">Device Cooler</string>
+    <string name="cooling_completed">Cooling completed</string>
+    <string name="device_temp_normal">Device temp is normal</string>
+    <string name="document">document</string>
+    <string name="draw_a_new_unlock_pattern">Draw a new unlock pattern</string>
+    <string name="draw_at_least_four_dots">Please connect at least 4 dots</string>
+    <string name="draw_overlays_permission_desc">On Android 7.1 or above, permission must be granted for AppLock to work correctly.</string>
+    <string name="draw_the_pattern_again_to_confirm">Draw the pattern again to confirm</string>
+    <string name="email_input_hint">Please enter your email</string>
+    <string name="email_input_ok">OK</string>
+    <string name="email_saved">Email saved</string>
+    <string name="empty_feedback">The content of the feedback cannot be empty</string>
+    <string name="enter_a_new_number_pwd">Enter a new Password(PIN)</string>
+    <string name="enter_number_again_to_confirm">Enter again to confirm</string>
+    <string name="exo_controls_fastforward_description">Fast forward</string>
+    <string name="exo_controls_fullscreen_description">Fullscreen mode</string>
+    <string name="exo_controls_next_description">Next track</string>
+    <string name="exo_controls_pause_description">Pause</string>
+    <string name="exo_controls_play_description">Play</string>
+    <string name="exo_controls_previous_description">Previous track</string>
+    <string name="exo_controls_repeat_all_description">Repeat all</string>
+    <string name="exo_controls_repeat_off_description">Repeat none</string>
+    <string name="exo_controls_repeat_one_description">Repeat one</string>
+    <string name="exo_controls_rewind_description">Rewind</string>
+    <string name="exo_controls_shuffle_description">Shuffle</string>
+    <string name="exo_controls_stop_description">Stop</string>
+    <string name="exo_download_completed">Download completed</string>
+    <string name="exo_download_description">Download</string>
+    <string name="exo_download_downloading">Downloading</string>
+    <string name="exo_download_failed">Download failed</string>
+    <string name="exo_download_notification_channel_name">Downloads</string>
+    <string name="exo_download_removing">Removing downloads</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_selection_auto">Auto</string>
+    <string name="exo_track_selection_none">None</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Text</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Surround sound</string>
+    <string name="exo_track_surround_5_point_1">5.1 surround sound</string>
+    <string name="exo_track_surround_7_point_1">7.1 surround sound</string>
+    <string name="exo_track_unknown">Unknown</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_contact_hint">Enter contact information</string>
+    <string name="feedback_contact_title">Please leave your e-mail or Skype account for us to better serve you:</string>
+    <string name="feedback_contact_toast">Please enter contact information</string>
+    <string name="feedback_dialog_title">Please Email Us</string>
+    <string name="feedback_exit_prompt_msg">Confirm to quit the feedback?</string>
+    <string name="feedback_fail">Feedback failed</string>
+    <string name="feedback_hint">Please describe your problems as many details as possible, so that we could fix it for you in time</string>
+    <string name="feedback_lack_words">Also need to enter %1$d word</string>
+    <string name="feedback_limit_words">Content has exceeded the limitation</string>
+    <string name="feedback_send">Submit</string>
+    <string name="feedback_sending">Sending feedback</string>
+    <string name="feedback_suc">Feedback successful</string>
+    <string name="fingerprint_auth_failure">Verification failed. Try again</string>
+    <string name="fingerprint_auth_forbidden">Too many attempts.Try again later.</string>
+    <string name="fingerprint_auth_hint">Scan fingerprint to unlock</string>
+    <string name="five_star_praise">Five-star praise</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="forget_password_title">Forget Password?</string>
+    <string name="function_desc_app_lock_">%s App(s) with privacy issues</string>
+    <string name="function_desc_power_save">You may need Battery Saver to stop battery draining apps.</string>
+    <string name="gif">gif</string>
+    <string name="go_select">Go Select</string>
+    <string name="go_setting">GO SET</string>
+    <string name="group_lock_screen_settings_title">Lockscreen Settings</string>
+    <string name="group_pwd_title">Password</string>
+    <string name="guide_floating_window_desc">To improve the stability of lock screen, please enable Easy Clean Lite</string>
+    <string name="guide_usage_setting_desc">To protect privacy, please enable Easy Clean Lite</string>
+    <string name="guide_usage_setting_desc_boost">To boost your phone, please enable Easy Clean Lite</string>
+    <string name="hide_applock">Hide Lock Master</string>
+    <string name="hide_applock_desc">Hide Lock Master icon from home</string>
+    <string name="hint_power_scan">Analyzing Battery Usage…</string>
+    <string name="hint_process_power_saving">Hibernate apps to save power</string>
+    <string name="image">image</string>
+    <string name="index_app_clean">Junk Clean</string>
+    <string name="index_app_lock">AppLock</string>
+    <string name="index_cool_down">Device Cooler</string>
+    <string name="index_notification_clean">Notification Organizer</string>
+    <string name="index_phone_boost">Phone Boost</string>
+    <string name="index_power_saving">Battery Saver</string>
+    <string name="index_whatsapp_clean">Clean WhatsApp</string>
+    <string name="init_view_btn_text">PROTECT</string>
+    <string name="init_view_desc">More than &lt;font color=#ff0000 ><big>&lt;big> %1$d &lt;/big></big>&lt;/font> apps with privacy issue</string>
+    <string name="installed">Installed Apps</string>
+    <string name="intruder_reminder">Intruder Reminder</string>
+    <string name="intruder_reminder_desc">Someone tried to intrude your phone</string>
+    <string name="intruder_selfie">Intruder Selfie</string>
+    <string name="intruder_selfie_desc">Take a photo of intruder</string>
+    <string name="intruder_selfie_detail_desc">Automatically take photos after entering the wrong password 3 times.</string>
+    <string name="item_clean_total">%s Total</string>
+    <string name="item_lock_mode">Lock Mode</string>
+    <string name="item_lock_mode_after_screen_off_three_minutes">Lock apps after screen off for 3 mins</string>
+    <string name="item_lock_mode_at_screen_off">Lock apps at screen off</string>
+    <string name="item_lock_mode_exit_app">Lock apps upon exiting</string>
+    <string name="item_new_app_prompt">Lock the New App</string>
+    <string name="item_new_app_prompt_desc">After you installed the new app, you can one tap to lock the app</string>
+    <string name="item_pwd_change">Change Password</string>
+    <string name="item_pwd_retrieve">Security Email</string>
+    <string name="item_pwd_type">Password Type</string>
+    <string name="item_pwd_type_number">PIN</string>
+    <string name="item_pwd_type_pattern">Pattern</string>
+    <string name="item_select_tips">" "<Data> &lt;font color=#FB5731>Selected %s&lt;/font>&lt;font color=#FB5731>,please confirm before cleaning.&lt;/font></Data>" "</string>
+    <string name="item_vibration_prompt">Vibration Prompt</string>
+    <string name="junk_clean">Junk Clean</string>
+    <string name="junk_notifications">Junk Notifications</string>
+    <string name="loadding">Loading...</string>
+    <string name="lock_service_keep_alive_notification_desc">Keep alive to ensure lockscreen work properly</string>
+    <string name="lock_service_keep_alive_notification_title">Protecting Your Privacy</string>
+    <string name="locked_apps">Locked Apps</string>
+    <string name="main_top_ram_usage">RAM USAGE</string>
+    <string name="menu_forget_pwd">Forget Password</string>
+    <string name="menu_more">more</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_theme">Themes</string>
+    <string name="messenger_send_button_text">Send</string>
+    <string name="monitoring_junk_files">Monitoring Junk Files...</string>
+    <string name="monitoring_junk_notifications">Monitoring Junk Notifications...</string>
+    <string name="nc_count_unit">%d</string>
+    <string name="necessary_permission_desc">The necessary permission is not turned on. If you want to use Easy Clean Lite normally, please enable it first.</string>
+    <string name="network_loading_error">No network, loading failed</string>
+    <string name="network_send_error">The current network environment is abnormal</string>
+    <string name="new_install_app_locked">%s has been locked</string>
+    <string name="new_install_app_tips">Do you want to lock %s to protect privacy?</string>
+    <string name="no_file_found">No files found</string>
+    <string name="no_fingerprints_registered">No Fingerprints Registered</string>
+    <string name="no_pattern_password">No Pattern Password</string>
+    <string name="no_pin_password">No PIN Password</string>
+    <string name="not_now">CANCEL</string>
+    <string name="notification_clean_close_confirm_hint">Notification Cleaner will not be available after close!</string>
+    <string name="notification_clean_setting_disable_desc">Notification Cleaner closed</string>
+    <string name="notification_clean_setting_enable_desc">Notification Cleaner enabled</string>
+    <string name="notification_cleaner">Notification Organizer</string>
+    <string name="notification_cleaner_desc">Too many annoying notifications?Try to block and clean them!</string>
+    <string name="notification_cleaner_guide_desc">Close up unimportant messages, notification bar will be clearer.</string>
+    <string name="notification_guide_notification_counts">Junk Notifications</string>
+    <string name="notification_setting_black_list_title">"Apps - Don't disturb"</string>
+    <string name="notification_setting_white_list_title">Apps - Notifications allowed</string>
+    <string name="notification_system_setting_guide_desc">Enable notification organizer by granting access to Easy Clean Lite</string>
+    <string name="number_eight">8</string>
+    <string name="number_five">5</string>
+    <string name="number_four">4</string>
+    <string name="number_nine">9</string>
+    <string name="number_one">1</string>
+    <string name="number_password_do_not_match">Password do not match</string>
+    <string name="number_seven">7</string>
+    <string name="number_six">6</string>
+    <string name="number_three">3</string>
+    <string name="number_two">2</string>
+    <string name="number_zero">0</string>
+    <string name="ok">OK</string>
+    <string name="open">OPEN</string>
+    <string name="pattern_do_not_match">Pattern do not match</string>
+    <string name="pattern_saved">Pattern saved</string>
+    <string name="permission_desc">%s need storage permissions to scan junk. Otherwise, you will not be able to use cleaning feature.</string>
+    <string name="permission_desc_cooling">Your permission is required in order for us to help your device work well and maintain a normal temperature</string>
+    <string name="permission_desc_setting">Route: Settings -> Applications -> %s -> Permissions -> Storage</string>
+    <string name="permission_permit">PERMIT</string>
+    <string name="permission_prompt">Permission Prompt</string>
+    <string name="permission_title_cooling">Grant permission to Device Cooler</string>
+    <string name="phone_boost">Phone Boost</string>
+    <string name="photos_deleted">Photos deleted</string>
+    <string name="pin_saved">PIN password saved</string>
+    <string name="please_enroll_fingerprint_to_system">Please enroll your fingerprints on system settings.</string>
+    <string name="please_enter_email_code">Please enter the verification code that received in your email</string>
+    <string name="please_enter_valid_email">Please enter a valid email address</string>
+    <string name="power_save">Battery Saver</string>
+    <string name="power_save_app_nums">%s app(s) are draining battery, further optimization is recommended.</string>
+    <string name="power_save_app_nums_consuming">%1$s app(s) are draining battery.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="professional_title">Clean %s</string>
+    <string name="quick_clean">Quick cleaning</string>
+    <string name="quick_clean_hint">Enter the app to directly start scanning and cleaning</string>
+    <string name="quick_function">Quick Function</string>
+    <string name="quick_notification_bar">Notification Toggle</string>
+    <string name="rating_desc_boost">%s apps have been optimized to make your phone running faster.</string>
+    <string name="rating_desc_clean">%s of junk files has been cleaned to release more storage and make phone running faster.</string>
+    <string name="rating_desc_notification">%s notifications have been cleaned up to make the notification center cleaner.</string>
+    <string name="rating_desc_protect">The status of your phone is excellent. Please help rate us on Google Play</string>
+    <string name="rating_desc_whatsapp">%s cache is cleaned up to make you phone have more space and run faster.</string>
+    <string name="rating_dialog_cancel">@string/common_cancel</string>
+    <string name="rating_dialog_submit">@string/txt_submit</string>
+    <string name="re_load">Tap the screen to reload</string>
+    <string name="recommend">Recommend</string>
+    <string name="release_finger_when_done">Release finger when done</string>
+    <string name="reset_number_password">Reset Password</string>
+    <string name="reset_pattern_password">Reset Pattern</string>
+    <string name="result_applock_action">PROTECT</string>
+    <string name="result_applock_desc">Protect Your Privacy</string>
+    <string name="result_boost_action">BOOST NOW</string>
+    <string name="result_card_boost_shortcut_desc">Create home screen shortcut for One-Tap Boost to use Phone Boost easily.</string>
+    <string name="result_clean_desc">Clean to lighten your phone now.</string>
+    <string name="result_cleaned">Junk Cleaned</string>
+    <string name="result_cooling_action">COOL DOWN</string>
+    <string name="result_cooling_desc">Device is too hot causing phone lagging, cool down now!</string>
+    <string name="result_desc_boosted">Your device has been boosted</string>
+    <string name="result_desc_notification_clean">All junk notifications have been cleaned!</string>
+    <string name="result_desc_trash_not_found">No junk files found.</string>
+    <string name="result_power_save_header_desc">Congrats! No apps are draining battery</string>
+    <string name="result_power_save_header_desc2">Extended power for you!</string>
+    <string name="result_power_save_item_action">CLEAN NOW</string>
+    <string name="result_power_save_item_desc">App is secretly running in the background, draining resources and battery.</string>
+    <string name="result_professional_clean_desc">%s Selected files have been cleaned!</string>
+    <string name="result_professional_clean_recommend_desc">Need more storage? Do a deep clean for WhatsApp now!</string>
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="safe_clean">"Clean don't affect normal use."</string>
+    <string name="scan_running_apps">Scanning apps</string>
+    <string name="sdcard_permission_professional_title">Grant permission to Clean WhatsApp</string>
+    <string name="sdcard_permission_system_toast">Find Storage and enable</string>
+    <string name="search">Search</string>
+    <string name="search_menu_title">Search</string>
+    <string name="security_email">Security Email</string>
+    <string name="security_email_desc">Once you forget your password, the security email will help you to find it back.</string>
+    <string name="security_timewall_item_time_desc_6_day">%1$d days ago</string>
+    <string name="send_email_failure">Send failed</string>
+    <string name="send_email_success">Send succeeded</string>
+    <string name="send_me_an_email">Send me an email</string>
+    <string name="set_permission">Set permission</string>
+    <string name="setting">Setting</string>
+    <string name="settings">Settings</string>
+    <string name="setup_pwd">SETUP</string>
+    <string name="shortcut_create_success">Shortcut icon created.</string>
+    <string name="splash_allow_access">Allow access to clean</string>
+    <string name="splash_junk_clean">"Cache junk, Residual junk,
+ Ad junk, Obsolete APK files"</string>
+    <string name="splash_title">The Lightest &amp; Smartest Junk Clean</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="switch_number_password">Switch Password(PIN)</string>
+    <string name="switch_pattern_no_pwd">If you want to change the type, please draw a new Pattern first</string>
+    <string name="switch_pattern_password">Switch Pattern</string>
+    <string name="switch_pin_no_pwd">If you want to change the type, please enter a new PIN first</string>
+    <string name="text_accessibility_permission_guide">To save battery power, please find and enable Easy Clean Lite.</string>
+    <string name="text_app_checked_num">Hibernate apps to save power(%1$d/%2$d)</string>
+    <string name="text_boost">BOOST</string>
+    <string name="text_cooling">Cool down</string>
+    <string name="text_flash">Flashlight</string>
+    <string name="text_general">General</string>
+    <string name="text_home">Home</string>
+    <string name="text_notify_boosted_desc">RAM usage is too high causing phone lagging, boost now!</string>
+    <string name="text_phone_boost">Phone Boost</string>
+    <string name="text_push_boosted">%s RAM used causing phone lagging, boost now to release more space!</string>
+    <string name="text_push_trash">More than %s Junk Files</string>
+    <string name="toast_camera_permission">Please enable camera permission</string>
+    <string name="turn_off_app_lock">CLOSE</string>
+    <string name="turn_off_app_lock_desc">If you turn off Applock,your privacy will be at risk of disclosure</string>
+    <string name="turn_off_app_lock_title">Close Applock</string>
+    <string name="turn_on">TURN ON</string>
+    <string name="turn_on_app_lock">TURN ON</string>
+    <string name="turn_on_app_lock_desc">Applock is switched off now. Would you like to turn it on?</string>
+    <string name="turn_on_app_lock_title">Enable Applock</string>
+    <string name="txt_being_clean">Cleaning</string>
+    <string name="txt_boost_one_key">BOOST</string>
+    <string name="txt_boosting">Boosting</string>
+    <string name="txt_button_boost">@string/result_boost_action</string>
+    <string name="txt_button_clean">@string/clean_now</string>
+    <string name="txt_cancel">@string/common_cancel</string>
+    <string name="txt_clean_desc">System app junk files are using up your storage</string>
+    <string name="txt_close">CLOSE</string>
+    <string name="txt_cooling_desc">Cool down now to extend battery life</string>
+    <string name="txt_current_capacity">Battery remaining</string>
+    <string name="txt_dialog_cool">Temperature:%1$s. Your phone needs to be cooled down.</string>
+    <string name="txt_dialog_professinal">%s junk file has been detected in WhatsApp, which make your device running slowly.</string>
+    <string name="txt_dialog_trash_size">"%1$s's data has exceeded %2$s"</string>
+    <string name="txt_enable">ENABLE</string>
+    <string name="txt_exit_once_more">Tap again to exit</string>
+    <string name="txt_privacy_policy">Privacy Policy</string>
+    <string name="txt_professional_file_size">%1$d file(s) (Size: %2$s)</string>
+    <string name="txt_scan">SCAN</string>
+    <string name="txt_splash_permission">Allow access to clean</string>
+    <string name="txt_storage">Storage</string>
+    <string name="txt_submit">SUBMIT</string>
+    <string name="usage_permission_desc">"Please turn on the usage, otherwise AppLock won't work in Android 5.0+ system"</string>
+    <string name="usage_setting_permission_title">Grant permission to boost phone</string>
+    <string name="use_fingerprint">Use Fingerprint</string>
+    <string name="use_fingerprint_desc">Use verified fingerprint to unlock</string>
+    <string name="verify_by_email_account">Verify by email account</string>
+    <string name="verify_code_exit_cancel">CANCEL</string>
+    <string name="verify_code_exit_prompt_msg">Once exiting, you need to resend the verification code, comfirm to exit?</string>
+    <string name="verify_code_exit_prompt_title">TIPS</string>
+    <string name="verify_code_exit_yes">YES</string>
+    <string name="verify_code_not_match">Verification code not match</string>
+    <string name="verify_email_code_hint">Please enter the verification code that received in your email</string>
+    <string name="verify_permission_tip">Enable the necessary permission to get advanced features</string>
+    <string name="verify_success">Verify succeeded</string>
+    <string name="video">video</string>
+    <string name="video_clean">Video Cleaner</string>
+    <string name="video_clean_desc">Clean to free up more space</string>
+    <string name="voice">voice</string>
+    <string name="yes">@string/common_confirm</string>
+    <item type="string" name="APKTOOL_DUMMY_0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_21">false</item>
+    <item type="string" name="APKTOOL_DUMMY_86">false</item>
+    <item type="string" name="APKTOOL_DUMMY_ca">false</item>
+    <item type="string" name="APKTOOL_DUMMY_cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_d4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_105">false</item>
+    <item type="string" name="APKTOOL_DUMMY_127">false</item>
+    <item type="string" name="APKTOOL_DUMMY_128">false</item>
+    <item type="string" name="APKTOOL_DUMMY_13b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_13c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_14c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_14d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_170">false</item>
+    <item type="string" name="APKTOOL_DUMMY_17b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_17e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_17f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_180">false</item>
+    <item type="string" name="APKTOOL_DUMMY_181">false</item>
+    <item type="string" name="APKTOOL_DUMMY_182">false</item>
+    <item type="string" name="APKTOOL_DUMMY_188">false</item>
+    <item type="string" name="APKTOOL_DUMMY_189">false</item>
+    <item type="string" name="APKTOOL_DUMMY_195">false</item>
+    <item type="string" name="APKTOOL_DUMMY_197">false</item>
+    <item type="string" name="APKTOOL_DUMMY_198">false</item>
+    <item type="string" name="APKTOOL_DUMMY_199">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1b7">false</item>
+</resources>

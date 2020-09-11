@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_horizontal" android:id="@id/iv_rl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/iv_app_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_battery_capacity" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_current_capacity" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/tv_battery_capacity" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/tv_app_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" />
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="8.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="@color/color_A1A1A1" android:gravity="center" android:id="@id/tv_checked_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="64.0dip" android:layout_marginBottom="12.0dip" />
+            <View android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_apps" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_marginTop="16.0dip" android:layout_weight="1.0" />
+            <Button android:textSize="21.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btn_submit" android:background="@drawable/btn_selector_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/default_margin_horizontal" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/default_margin_horizontal" android:layout_marginBottom="12.0dip" android:text="@string/clean_now" android:textAllCaps="false" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

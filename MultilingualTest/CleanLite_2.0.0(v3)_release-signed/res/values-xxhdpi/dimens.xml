@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lock_appicon_margin_top">40.0dip</dimen>
+    <dimen name="lock_button_vertical_space">15.0dip</dimen>
+    <dimen name="lock_dot_margin_bottom">12.0dip</dimen>
+    <dimen name="lock_number_size">70.0dip</dimen>
+    <dimen name="lock_number_text_size">25.0sp</dimen>
+    <dimen name="lock_view_title_height">60.0dip</dimen>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sync-adapter android:accountType="clean.lite.daemon" android:contentAuthority="com.ludashi.clean.lite.daemon.provider" android:userVisible="false" android:supportsUploading="false" android:allowParallelSyncs="false" android:isAlwaysSyncable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

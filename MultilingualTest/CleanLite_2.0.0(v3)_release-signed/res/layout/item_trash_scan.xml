@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:id="@id/space" android:layout_width="1.0dip" android:layout_height="20.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout android:id="@id/rl_progress" android:layout_width="52.0dip" android:layout_height="52.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/space">
+        <ImageView android:id="@id/iv_src" android:background="@drawable/bg_white_circle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:src="@drawable/icon_trash_apk" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/colorPrimary" android:id="@id/tv_item_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:scaleType="centerInside" android:layout_centerInParent="true" android:layout_centerVertical="true" android:layout_marginStart="2.0dip" />
+        <com.ludashi.clean.lite.ui.widget.CircleProgressBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:circleProgressColor="@color/color_5FEEFF" />
+    </RelativeLayout>
+    <TextView android:textColor="@color/white" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/rl_progress" />
+</merge>

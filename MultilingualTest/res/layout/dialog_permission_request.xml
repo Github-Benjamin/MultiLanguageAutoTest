@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="267.0dip" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingTop="27.0dip" android:paddingBottom="27.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_icon" android:visibility="gone" android:layout_width="74.0dip" android:layout_height="78.0dip" android:scaleType="centerInside" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="18.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/color_333333" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/color_666666" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:textAlignment="center" />
+        </LinearLayout>
+        <Button android:textSize="16.0sp" android:id="@id/btn_ok" android:layout_width="fill_parent" android:layout_height="37.0dip" android:layout_marginLeft="19.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="19.0dip" android:layout_marginStart="19.0dip" android:layout_marginEnd="19.0dip" style="@style/BlueButtonStyle" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

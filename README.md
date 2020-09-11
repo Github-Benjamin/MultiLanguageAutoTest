@@ -1,2 +1,1 @@
-# MultiLanguageAutoTest
-MultiLanguageAutoTest
+#multilanguageautotest

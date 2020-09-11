@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/item_root" android:background="@drawable/main_item_cell_bg" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/color_666666" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/checkbox" android:layout_toRightOf="@id/iv_icon" android:layout_centerVertical="true" android:layout_toStartOf="@id/checkbox" android:layout_toEndOf="@id/iv_icon" />
+    <CheckBox android:enabled="false" android:id="@id/checkbox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true" style="@style/checkbox" />
+</RelativeLayout>

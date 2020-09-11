@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_clean_result" android:background="@color/colorPrimary" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/layout_toolbar" />
+    <ImageView android:id="@id/iv_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_clean_ok" android:scaleType="centerInside" android:layout_centerInParent="true" android:scaleX="0.0" android:scaleY="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="24.0dip" android:layout_below="@id/iv_ok" android:layout_centerHorizontal="true" android:alpha="0.0" />
+    <com.ludashi.clean.lite.ui.widget.CleanResultView android:id="@id/result_list" android:background="@color/color_F5F5F5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="80.0dip" android:layout_below="@id/toolbar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>
