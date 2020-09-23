@@ -88,12 +88,13 @@ class doAllXML():
     def getXMLValue(self,content):
         keyList = []
         for item in content:
-            if self.keyName in item.childNodes[0].data or self.keyName == item.childNodes[0].data:
-                # print(self.keyName, item.getAttribute("name"))
-                keyList.append(item.getAttribute("name"))
+            try:
+                if self.keyName in item.childNodes[0].data or self.keyName == item.childNodes[0].data:
+                    # print(self.keyName, item.getAttribute("name"))
+                    keyList.append(item.getAttribute("name"))
+            except Exception as e:
+                print("模糊搜索出现错误： ", e," 其他正常执行")
         return keyList
-
-
 
     def getSearchKey(self):
         keyList = []
@@ -140,9 +141,9 @@ class doAllXML():
 if __name__ == "__main__":
 
     #   获取单个key的 所有国家值
-    name = "取消"
+    name = "弹窗"
 
-    readAllXML = doAllXML("CleanLite_2.0.0(v3)_release-signed",CountryList,CountryConfig,name)
+    readAllXML = doAllXML("SuperSecurity_2.2.3(v18)_logRelease-signed",CountryList,CountryConfig,name)
 
     # 精装匹配key
     # keyList = readAllXML.getAllXMLValue(1)

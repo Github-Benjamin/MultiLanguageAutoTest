@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:fitsSystemWindows="true" android:minHeight="?actionBarSize" app:contentInsetStart="16.0dip" app:contentInsetStartWithNavigation="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SecurityToolbar" />
-    <com.ludashi.clean.lite.ui.widget.TrashMobileParamsView android:id="@id/mobile_params_layout" android:layout_width="fill_parent" android:layout_height="93.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
-    <com.ludashi.clean.lite.ui.widget.TrashCenterRippleView android:id="@id/center_scan_layout" android:layout_width="253.0dip" android:layout_height="253.0dip" android:layout_marginTop="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/mobile_params_layout" />
-    <com.ludashi.clean.lite.ui.widget.TrashBottomCleanGroup android:id="@id/bottom_clean_layout" android:layout_width="fill_parent" android:layout_height="225.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
-    <ViewStub android:id="@id/vs_request_permission" android:layout="@layout/layout_request_permission" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>

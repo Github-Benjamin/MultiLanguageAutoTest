@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/center_scan_layout" android:layout_width="253.0dip" android:layout_height="253.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.ludashi.clean.lite.ui.widget.WaterRippleView android:layout_gravity="center" android:id="@id/center_scan_water" android:layout_width="253.0dip" android:layout_height="253.0dip" android:layout_margin="@dimen/water_ripple_wave_padding" app:rippleAutoRunning="false" app:rippleColor="#ffffffff" app:rippleCount="1" app:rippleSpacing="16.0dip" />
-    <View android:layout_gravity="center" android:background="@drawable/bg_start_scan_btn" android:layout_width="129.0dip" android:layout_height="129.0dip" />
-    <TextView android:textSize="16.0sp" android:textColor="#ff0081ff" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_scan" android:drawableTop="@drawable/icon_trash_start_scan" android:drawablePadding="8.0dip" />
-</FrameLayout>

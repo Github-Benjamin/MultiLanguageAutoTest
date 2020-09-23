@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/feedback_dialog_title" />
-    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="5.0dip" />
-    <com.ludashi.clean.lite.ui.widget.PageIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginBottom="8.0dip" app:indicatorGap="2.0dip" app:indicatorHeight="1.0dip" app:indicatorWidth="1.0dip" app:selectColor="#ff1fc44b" app:strokeColor="#ff1fc44b" app:unselectColor="#441fc44b" />
-</LinearLayout>

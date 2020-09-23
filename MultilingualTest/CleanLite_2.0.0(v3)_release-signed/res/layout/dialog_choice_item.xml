@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RadioButton android:textSize="15.0sp" android:textColor="@color/color_dialog_msg" android:id="@id/radio" android:background="@color/color_transparent" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:drawableLeft="@drawable/radio_button_selector" android:drawablePadding="12.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/radio_button_selector" />
-</RelativeLayout>

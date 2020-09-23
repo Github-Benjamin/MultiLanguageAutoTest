@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/item_root" android:background="@drawable/radius_item_cell_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="130.0dip" android:minHeight="170.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/iv_photo" android:layout_width="wrap_content" android:layout_height="170.0dip" android:layout_margin="10.0dip" android:scaleType="centerCrop" android:minWidth="130.0dip" android:layout_centerHorizontal="true" />
-    <TextView android:textSize="10.0sp" android:textColor="@color/main_advance_detail_color" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_below="@id/iv_photo" android:layout_alignRight="@id/iv_photo" android:layout_alignEnd="@id/iv_photo" />
-</RelativeLayout>

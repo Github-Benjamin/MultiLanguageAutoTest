@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_fingerprint" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/iv_fingerprint" android:background="@drawable/icon_fingerprint_verify" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="centerInside" />
-    <TextView android:textSize="12.0sp" android:textColor="@color/color_fingerprint_status_color" android:id="@id/tv_fingerprint_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" />
-</LinearLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/scan_relative" android:layout_width="300.0dip" android:layout_height="300.0dip" android:layout_marginTop="50.0dip" android:layout_centerHorizontal="true">
-        <ImageView android:id="@id/image_scan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/whatsapp_scan_anim_bg" android:layout_centerInParent="true" />
-        <ImageView android:id="@id/clean_app_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/icon_whatsapp" android:scaleType="centerCrop" android:layout_centerInParent="true" />
-    </RelativeLayout>
-    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_desc_scan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_below="@id/scan_relative" />
-</RelativeLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:orientation="vertical" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="8.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="56.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="56.0dip" android:layout_marginBottom="32.0dip">
-        <TextView android:textColor="@color/color_333333" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_sending" />
-        <ImageView android:id="@id/iv_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:src="@drawable/icon_loading" />
-    </LinearLayout>
-</androidx.cardview.widget.CardView>
