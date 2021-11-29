@@ -2,6 +2,8 @@
 # multilanguageautotest
 #### Author: Wechat_Benjamin
 
+##
+
 ## 简介
 开发工具的初衷为的解决日常重复而繁琐的提高验证速度，多语言验证字符串准确性验证，普遍操作是一次操作看 5、6 部手机每部手机切换不同语言对比验证。
 
@@ -17,8 +19,9 @@
 
 根据Excel多语言表格，开发更新APK应用多语言string.xml配置。程序获取APK应用多语言文件配置并和产品规定Excel文档自动对比验证并进行颜色标记生成报告
 
+##
 
-##多语言自动化测试项目目录说明 
+## 文件目录说明 
 
 #### 1、apktool 反编译环境依赖
 
@@ -30,11 +33,12 @@
 
 #### 4、ImageDemo 项目演示截图
 
+##
 
-# 项目exe文件说明
+## 项目exe文件说明
 
 
-## ../apktoolTest/testGUI.exe
+### ../apktoolTest/testGUI.exe
 
 
 #### 反编译apk工具，需要apktool环境依赖
@@ -42,7 +46,7 @@
 
 
 
-## ../MultilingualTest/dist/testOneGUI.exe
+### ../MultilingualTest/dist/testOneGUI.exe
 
 
 #### 资源读取工具：
@@ -51,12 +55,13 @@
 #### 详细介绍：https://blog.csdn.net/qq_25305833/article/details/108540840
 
 
-## ../MultilingualTest/dist/testReadExcleGUI.exe
+### ../MultilingualTest/dist/testReadExcleGUI.exe
 
 
 #### 表格处理工具，支持exlce表格读取，string.xml支持多语言国家配置读取，最后进行数据对比标记存储到指定的exlce表格中并生成报告文件
 #### 详细介绍：https://blog.csdn.net/qq_25305833/article/details/105867809
 
+##
 
 ## 实现原理说明
 
@@ -69,3 +74,5 @@
 4、关键字模糊搜索，利用搜索的“倒排”，如果Value中包含搜索的关键字则获取该Key，获取到队列Key，再重复步骤3依次打印显示
 
 5、Excel多语言自动化测试报告，读取表格key列的列表，通过Key获取实际的Value值，并对Excel中的国家Value值对比并对验证接口标记颜色（红色、绿色、黄色）
+
+##
