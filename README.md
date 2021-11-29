@@ -1,6 +1,6 @@
 
 # multilanguageautotest
-#### Author: wechat_Benjaim
+#### Author: Wechat_Benjamin
 
 ## 简介
 开发工具的初衷为的解决日常重复而繁琐的提高验证速度，多语言验证字符串准确性验证，普遍操作是一次操作看 5、6 部手机每部手机切换不同语言对比验证。
